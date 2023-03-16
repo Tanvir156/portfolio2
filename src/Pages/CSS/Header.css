@@ -1,0 +1,10 @@
+.header {
+  background: linear-gradient(to bottom, #7a19f1, #332179);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 50% 100%, 0% 90%);
+  height: 90vh;
+}
+@media only screen and (max-width: 600px) {
+  .header {
+    height: 70vh;
+  }
+}

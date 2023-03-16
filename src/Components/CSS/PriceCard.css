@@ -1,0 +1,96 @@
+.priceCard {
+  width: 350px;
+  background: #fff;
+  border: 1px solid blueviolet;
+  border-radius: 15px;
+  text-align: center;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+  height: max-content;
+  margin: 25px;
+}
+.priceCarddiv::before {
+  content: "";
+  position: absolute;
+  width: 380px;
+  height: 136px;
+  background: #80808024;
+  left: -31px;
+  top: -56px;
+  transform: rotate(-11deg);
+}
+.priceCarddiv::after {
+  content: " ";
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 5;
+  height: 180px;
+  position: absolute;
+  -webkit-transform: rotate(106deg);
+  -ms-transform: rotate(106deg);
+  transform: rotate(106deg);
+  width: 1000px;
+  top: -210px;
+  left: -470px;
+  opacity: 0.5;
+  background: #0000001c;
+}
+.priceCarddiv2::before {
+  content: "";
+  position: absolute;
+  width: 380px;
+  height: 136px;
+  background: #7205f7;
+  left: -31px;
+  top: -56px;
+  transform: rotate(-11deg);
+}
+.priceCarddiv2::after {
+  content: " ";
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 5;
+  height: 180px;
+  position: absolute;
+  -webkit-transform: rotate(106deg);
+  -ms-transform: rotate(106deg);
+  transform: rotate(106deg);
+  width: 1000px;
+  top: -210px;
+  left: -470px;
+  opacity: 0.5;
+  background: #0000001c;
+}
+.priceCarddiv3::before {
+  content: "";
+  position: absolute;
+  width: 380px;
+  height: 136px;
+  background: #ffcd00;
+  left: -31px;
+  top: -56px;
+  transform: rotate(-11deg);
+}
+.priceCarddiv3::after {
+  content: " ";
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 5;
+  height: 180px;
+  position: absolute;
+  -webkit-transform: rotate(106deg);
+  -ms-transform: rotate(106deg);
+  transform: rotate(106deg);
+  width: 1000px;
+  top: -210px;
+  left: -470px;
+  opacity: 0.5;
+  background: #e4ba34;
+}
+.forgird {
+  display: flex;
+}

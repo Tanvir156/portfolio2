@@ -1,0 +1,14 @@
+.about-content h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-family: math;
+}
+.about-content p {
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  color: #524949;
+  font-weight: 500;
+  line-height: 24px;
+}

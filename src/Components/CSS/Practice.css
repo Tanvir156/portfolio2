@@ -1,0 +1,32 @@
+.half-width {
+  width: 40%;
+  float: left;
+  margin-left: 6%;
+}
+.half-width img {
+  width: 100%;
+}
+.secction {
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
+.secction {
+  text-align: center;
+}
+
+.secction p {
+  text-align: left;
+}
+@media only screen and (max-width: 700px) {
+  .secction {
+    display: grid;
+    height: 70vh;
+    float: none;
+  }
+  .half-width {
+    width: 100%;
+    margin-bottom: 38px;
+    padding-right: 4%;
+  }
+}

@@ -1,0 +1,17 @@
+.textarea {
+  width: 420px;
+}
+.linkk {
+  margin-bottom: 100px;
+}
+@media only screen and (max-width: 500px) {
+  .textarea {
+    width: 270px;
+  }
+  .linkk {
+    margin-bottom: 50px;
+  }
+}
+.decoration {
+  text-decoration: none;
+}

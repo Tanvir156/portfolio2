@@ -1,0 +1,48 @@
+.skillbar {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(245, 245, 245);
+}
+.img-responsive {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  padding: 25px;
+  border-radius: 35px;
+}
+.fontend {
+  height: 50%;
+}
+
+.fontend,
+.backend {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 600px;
+}
+.gootat {
+  margin-left: -150px;
+  position: inherit;
+}
+@media only screen and (max-width: 700px) {
+  .img-responsive {
+    width: 120px;
+    height: 112px;
+    padding: 20px;
+  }
+  .fontend {
+    width: 350px;
+  }
+  .backend {
+    width: 350px;
+  }
+  .skillbar {
+    height: 40vh;
+  }
+  .gootat {
+    margin-left: 0px;
+  }
+}

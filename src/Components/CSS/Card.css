@@ -1,0 +1,66 @@
+.container {
+  width: 250px;
+  height: 290px;
+  margin: auto;
+  display: grid;
+  position: relative;
+  top: 10%;
+  margin-right: 60px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.icon {
+  text-align: center;
+  color: rgb(19, 19, 145);
+}
+.tittle {
+  text-align: center;
+  font-weight: bold;
+}
+.text {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+.tittle {
+  color: blueviolet;
+}
+.text {
+  color: rgba(118, 71, 125, 0.62);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+@media only screen and (max-width: 800px) {
+  .icon {
+    font-size: 5rem;
+  }
+  .tittle {
+    font-size: 1.2rem;
+  }
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  width: 870px;
+  overflow: hidden;
+}
+@media only screen and (max-width: 800px) {
+  .content {
+    width: 320px;
+  }
+  .container {
+    width: 320px;
+    margin-right: 30px;
+  }
+  .tittle {
+    font-size: 1.2rem;
+  }
+}
+
+.arrow2:hover {
+  color: blueviolet;
+}
+.arrow:hover {
+  color: blueviolet;
+}
