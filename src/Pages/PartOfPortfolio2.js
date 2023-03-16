@@ -32,6 +32,7 @@ const PartOfPortfolio2 = () => {
           />
         </div>
       </div>
+ <Divider variant="middle" />
     </div>
   );
 };
