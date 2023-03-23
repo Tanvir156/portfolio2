@@ -3,7 +3,7 @@ import MarkerImage from "./../Components/MarkerImage";
 import MarkerContent from "./../Components/MarkerContent";
 import "./CSS/Marker.css";
 import Divider from "@mui/material/Divider";
-import Image from "./../Components/nootbook.png";
+import Image from "./../Components/notebook.png";
 import Chip from "@mui/material/Chip";
 const Portfolio = () => {
   return (
