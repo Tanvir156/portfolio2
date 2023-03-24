@@ -25,7 +25,7 @@ const Portfolio = () => {
             heading="PORTFOLIO"
             tittl="Social Media"
             tittle={<Chip label="2022" color="primary" />}
-            text="A platform where one can store her personal note.people can also share their status publicly.one can navigate other profile and can see their details.One can also message another exits in this website"
+            text="A platform where one can store her personal note.people can also share their status publicly.one can navigate other profile and can see their details.One can also message another exits in this website.i use react-redux to build this. "
             button="Preview"
             button2="Visit site"
           />
