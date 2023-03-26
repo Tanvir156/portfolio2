@@ -9,6 +9,7 @@ import GetInTouch from "./Pages/GetInTouch";
 import NavBar from "./Components/NavBar";
 import OverView from "./Components/OverView";
 import PartOfPortfolio3 from "./Pages/PartOfPortFolio3";
+import PartOfPortfolio4 from "./Pages/PartOfPortFolio4";
 import Skill from "./Pages/Skill";
 import SkillBar from "./Pages/SkillBar";
 import { Element } from "react-scroll";
@@ -25,6 +26,8 @@ function App() {
 
       <PartOfPortfolio />
       <PartOfPortfolio2 />
+      <PartOfPortfolio4 />
+
       <PartOfPortfolio3 />
       <Pricceing />
       <GetInTouch />
