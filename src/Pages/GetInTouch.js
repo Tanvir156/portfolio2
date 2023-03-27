@@ -80,7 +80,7 @@ const GetInTouch = () => {
     setSendText("Sending...");
 
     axios
-      .post("http://localhost:5000/sendEmail", data)
+      .post("https://portfolio-backend-4gel.onrender.com/sendEmail", data)
       .then((response) => {
         console.log("Email sent successfully!");
         // Optionally show a success message to the user
