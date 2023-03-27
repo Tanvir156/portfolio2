@@ -78,6 +78,7 @@ const GetInTouch = () => {
       message: message,
     };
     setSendText("Sending...");
+    setMessage("");
 
     axios
       .post("https://portfolio-backend-4gel.onrender.com/sendEmail", data)
