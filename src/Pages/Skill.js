@@ -7,7 +7,7 @@ import CardCover from "@mui/joy/CardCover";
 import Divider from "@mui/material/Divider";
 const Skill = () => {
   return (
-    <div style={{ marginTop: "-100px", background: "whitesmoke" }}>
+    <div style={{ marginTop: "-100px"}}>
       <div style={{ position: "relative", top: "60px" }}>
         <div className="section-title">
           <h2>About Me</h2>
