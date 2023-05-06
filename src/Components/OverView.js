@@ -56,20 +56,20 @@ export default function OverView() {
                 make your website creative.
               </Typography> */}
               <Button
-                variant="contained"
-                style={{
-                  width: "max-content",
-                  margin: "auto",
-                  marginTop: "60px",
-                  padding: "13px",
-                  borderRadius: "40px",
-                  cursor: "pointer",
-                  zIndex: "11111",
-                }}
-                onClick={handleClick}
-              >
-                My Resume 
-              </Button>
+  variant="contained"
+  style={{
+    width: "max-content",
+    margin: "auto",
+    marginTop: "60px",
+    padding: "13px",
+    borderRadius: "40px",
+    cursor: "pointer",
+    zIndex: "11111",
+  }}
+  onClick={() => window.open("https://drive.google.com/file/d/1CASsIqPxepLBBWJLbJPqwsV3nrr7uORs/view?usp=drivesdk")}
+>
+  My Resume
+</Button>
             </Box>
           </Container>
           <img src={imag} alt="" className="imgg" />
