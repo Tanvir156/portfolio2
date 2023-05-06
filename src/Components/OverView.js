@@ -68,7 +68,7 @@ export default function OverView() {
                 }}
                 onClick={handleClick}
               >
-                View my work
+                My Resume 
               </Button>
             </Box>
           </Container>
